@@ -1,10 +1,9 @@
-def add(a,b,d):
-    return a+b+d
+def add(a,b):
+    return a+b
 
 a=int(input("Enter a"))
 b=int(input("Enter b"))
-d=int(input("Enter d"))
 
-c=add(a,b,d)
+c=add(a,b)
 
 print(c)
